@@ -20,7 +20,7 @@ public class Demo {
 }
 ```
 Ответил: null, потому что не определен equals и hashCode<br>
-* 
+* Точно не запомнил но примерно какой рез-т будет и как исправить
 ```java
 public class Demo {
     static int x = 0;
@@ -40,6 +40,7 @@ public class Demo {
     }
 }
 ```
+Ответил что рез-т неопределен, как исправить все в кучу намешал про локи, синхронайзед, волатайл
 * Таблица orders(id, customer_id). Нужно получить список customer_id, у которых 2 и более заказа.
 ```sql
 SELECT customer_id
