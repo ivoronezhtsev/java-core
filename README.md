@@ -48,6 +48,8 @@ FROM orders
 GROUP BY customer_id
 HAVING COUNT(id) >= 2;
 ```
+От Сбера:
+Было упоминание что пока они на gitflow, но планируют на что-то другое с ветками
 # https://www.youtube.com/watch?v=N3qyqftkV4A
 Новичковый уровень:<br>
 синтаксис, ООП (классы, наследования, имплементировать, overload, implements, ключевые слова в джава, знание основных методов класса Object), импорты, методы класса Object,<br>
